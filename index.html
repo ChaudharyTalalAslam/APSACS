@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="./jquery.js"></script>
+    <style>
+        ul li:hover {
+            cursor: pointer;
+            color: rgb(66, 208, 255);
+            transition: 0.3s;
+        }
+
+        body {
+            background: url(./pattern.jpg);
+            
+        }
+
+        #std {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%,
+                    rgba(0, 0, 0, 0.20) 100%), #09C;
+        }
+
+        span {
+            color: #5d3232;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <header class="body-font bg-[#2D343E] h-auto flex items-center">
+
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+
+                <a class="flex  items-center text-white mb-4 md:mb-0 text-2xl">
+                    <h1>Multan Garrison Education <br> System, Multan
+                    </h1>
+                </a>
+
+                <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-[#D0DBEB] ">
+                    <a href="" class="mr-5 hover:border-b hover:border-[#D0DBEB]">Home&nbsp;|</a>
+                    <a href="" class="mr-5 hover:border-b hover:border-[#D0DBEB]">Webmail&nbsp;|</a>
+                    <a href="" class="mr-5 hover:border-b hover:border-[#D0DBEB]">Online SMS&nbsp;|</a>
+                    <a href="" class="mr-5 hover:border-b hover:border-[#D0DBEB]">SAS Portal&nbsp;|</a>
+                    <a href="./login.html" class="mr-5 hover:border-b hover:border-[#D0DBEB]">Student Portal&nbsp;|</a>
+                    <a href="" class="mr-5 hover:border-b hover:border-[#D0DBEB]">Contact&nbsp;|</a>
+                </nav>
+
+                <div
+                    class="lg:inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 gap-3 hidden ">
+
+                    <div class="">
+                        <div style="color: #6CC;
+                            text-align: right;
+                            font-family: Inter;
+                            font-size: 15.75px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 20px; /* 126.984% */
+                            ">+92 (61) 6350650</div>
+                        <div style="
+                            color: #FFF;
+                            text-align: right;
+                            font-family: Inter;
+                            font-size: 11.625px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20px; /* 172.043% */">MGES Secretariat</div>
+                    </div>
+                    <div class="text-white text-2xl justify-center items-center border-2 p-1 ">
+                        <i class="fa-solid fa-phone fa-rotate-270"></i>
+                    </div>
+
+
+                </div>
+            </div>
+        </header>
+
+
+        <div class="lg:h-[50px] lg:flex lg:items-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%,
+                                rgba(0, 0, 0, 0.20) 100%), #09C; ">
+
+            <ul class=" gap-16 text-white text-[17px] pl-5   hidden lg:flex items-center" id="nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Branches</a></li>
+                <li><a href="./login.html">Student Portal</a></li>
+                <li><a href="#">Apply Online</a</li>
+                <li><a href="#">Picture Gallery</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+
+            <div class=" flex h-[50px] items-center  justify-between px-5  lg:hidden hover:cursor-pointer " id="menu">
+                <div class="text-xl text-yellow-400">Menu</div>
+                <div><i class="fa-solid fa-bars text-xl"></i></div>
+            </div>
+
+        </div>
+        
+        <div class="w-full h-[250px] hidden absolute lg:hidden  " id="menu1">
+            <ul class="flex flex-col h-full justify-between py-3 text-white text-xl font-normal px-5 " style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%,
+                    rgba(0, 0, 0, 0.20) 100%), #09C;
+        ">
+            <li><a href="">About</a></li>
+            <li><a href="">Branches</a></li>
+            <li><a href="./login.html">Student Portal</a></li>
+            <li><a href="">Apply Online</a></li>
+            <li><a href="">Picture Gallery</a></li>
+            <li><a href="">Contact US</a></li>
+            </ul>
+
+        </div>
+
+
+    </section>
+
+    <!-- about APSACS  about APSACS  about APSACS- about APSACS  about APSACS  about APSACS  about APSACS -->
+
+    <div>
+        <img src="./slide-intro.jpg" alt="" class="px-5 lg:px-0 ">
+    </div>
+
+
+    <section>
+
+
+        <div class="   h-[700px] flex flex-col lg:flex lg:flex-row justify-between lg:h-auto lg:px-4 ">
+
+            <div class=" bg-blue-400  h-[200px] flex justify-between p-5  w-full 
+            lg:w-[250px] lg:flex lg:flex-col-reverse lg:h-[450px] lg:justify-center lg:gap-4 lg:items-center rounded-md  lg:-mt-[50px] 
+            xl:w-[400px] xl:h-[250px] xl:flex xl:flex-row  xl:justify-between " id="std">
+
+                <div class="text-white font-medium ">
+                    <h1 class="text-[28px] text-yellow-400">Muahmmad Talal Aslam</h1>
+                    <h3 class="text-[17px] mt-2">SSC II 2021</h3>
+                    <h3 class="text-[17px]">Roll no.1018040</h3>
+                    <h3 class="text-[17px]">Marks Obtain 991/1100</h3>
+                    <h3 class="text-[17px]">Aps & C for Boys Multan</h3>
+                </div>
+
+                <img src="./206200056.jpg" id="talal" alt="" class="lg:w-[100px] w-[150px]">
+            </div>
+
+            <div class=" bg-blue-400  h-[200px] flex justify-between p-5  w-full 
+            lg:w-[250px] lg:flex lg:flex-col-reverse lg:h-[450px] lg:justify-center lg:gap-4 lg:items-center rounded-md  lg:-mt-[50px] 
+            xl:w-[400px] xl:h-[250px] xl:flex xl:flex-row  xl:justify-between " id="std">
+
+                <div class="text-white font-medium ">
+                    <h1 class="text-[28px] text-yellow-400">Javeria Rubab</h1>
+                    <h3 class="text-[17px] mt-2">HSSC II 2022</h3>
+                    <h3 class="text-[17px]">Roll No. 566791</h3>
+                    <h3 class="text-[17px]">Marks Obtained: 1061/1100</h3>
+                    <h3 class="text-[17px]">Aps & C for Girls Multan</h3>
+                </div>
+
+                <img src="./tab1.jpg" alt="" class="lg:w-[100px] w-[150px]">
+            </div>
+            <div class=" bg-blue-400  h-[200px] flex justify-between p-5  w-full 
+            lg:w-[250px] lg:flex lg:flex-col-reverse lg:h-[450px] lg:justify-center lg:gap-4 lg:items-center rounded-md  lg:-mt-[50px] 
+            xl:w-[400px] xl:h-[250px] xl:flex xl:flex-row  xl:justify-between " id="std">
+
+                <div class="text-white font-medium ">
+                    <h1 class="text-[28px] text-yellow-400">Huzaifa Husnain</h1>
+                    <h3 class="text-[17px] mt-2">SSC II 2022</h3>
+                    <h3 class="text-[17px]">Roll no.1016661</h3>
+                    <h3 class="text-[17px]">Marks Obtained: 1082/1100</h3>
+                    <h3 class="text-[17px]">Aps & C for Boys Multan</h3>
+                </div>
+
+                <img src="./tab3.jpg" alt="" class="lg:w-[100px] w-[150px]">
+            </div>
+        </div>
+
+
+        <marquee behavior="" direction="" class="mt-20"><b class="flex flex-row"> <span>IMPORTED ANNOUNCEMENT:</span>
+                <div class="text-[#068306]"> FBISE ANNUAL EXAMINATION OF SSC WILL START FROM 27TH APRIL 2023.</div>
+                &nbsp;&nbsp;<span>IMPORTED ANNOUNCEMENT:</span>
+                <div class="text-[#068306]"> PRE BOARD EXAM 2023 OF HSSC WILL START FROM 26TH APRIL 2023.</div>
+                <span>IMPORTED ANNOUNCEMENT:</span>
+                <div class="text-[#068306]"> I FINAL TERM PTM & RESULT FOR LEVEL I- IV - JUN 10TH, 2023.</div>
+            </b>
+        </marquee>
+
+    </section>
+
+
+
+    <section class="flex w-full flex-col lg:flex lg:flex-row">
+
+        <div id="middle-left" class="w-full px-4 mt-5 lg:w-[400px] lg:h-[1100px] flex flex-col justify-between ">
+
+            <div id="left-left" class="bg-[#eaf9ff] lg:flex lg:flex-row lg:items-center p-5 gap-5 md:flex md:flex-col ">
+                <div><img src="./Icon.svg" alt=""></div>
+                <div>
+                    <h1 class="text-3xl text-[#2E415C] font-bold">MGES Secretariat</h1>
+                    <h2 class="text-[#2E415C]">School Road, Multan Cantt (PAKISTAN) <br>
+                        Email: admin@mges.pk <br>
+                        Telephone: + 92 (61) 6350659 <br>
+                    </h2>
+                </div>
+            </div>
+            <div id="left-left" class="bg-[#eaf9ff] lg:flex lg:flex-row lg:items-center p-5 gap-5 md:flex md:flex-col">
+                <div><img src="./Icon.svg" alt=""></div>
+                <div>
+                    <h1 class="text-3xl text-[#2E415C] font-bold"> <a href="./apsboys.html">APS & C Boys</a></h1>
+                    <h2 class="text-[#2E415C]">school Road Near Chaman Zar-e-Askari, Multan Cantt (PAKISTAN) <br>
+                        Email: apsboys@mges.pk  <br>
+                        Telephone: + 92 (61) 9202745<br>
+                    </h2>
+                </div>
+            </div>
+            <div id="left-left" class="bg-[#eaf9ff] lg:flex lg:flex-row lg:items-center p-5 gap-5 md:flex md:flex-col">
+                <div><img src="./Icon.svg" alt=""></div>
+                <div>
+                    <h1 class="text-3xl text-[#2E415C] font-bold"><a href="./apsgirls.html">APS & C Girls</a></h1>
+                    <h2 class="text-[#2E415C]">school Road Near Chaman Zar-e-Askari, Multan Cantt (PAKISTAN) <br>
+                         Email: apsgirls@mges.pk<br>
+                         Telephone: + 92 (61) 9202745 <br>
+                    </h2>
+                </div>
+            </div>
+
+
+            <div id="left-left" class="bg-[#eaf9ff] lg:flex lg:flex-row lg:items-center p-5 gap-5  md:flex md:flex-col">
+                <div><img src="./Icon.svg" alt=""></div>
+
+                <div>
+                    <h1 class="text-3xl text-[#2E415C] font-bold">APS Junior</h1>
+                    <h2 class="text-[#2E415C]">Fort Colony, Multan Cantt (PAKISTAN) <br>
+                        Email: apsjnr@mges.pk <br>
+                        Telephone: + 92 (61) 6515761 <br>
+                    </h2>
+                </div>
+
+            </div>
+            <div id="left-left" class="bg-[#eaf9ff] lg:flex lg:flex-row lg:items-center p-5 gap-5  md:flex md:flex-col">
+                <div><img src="./Icon.svg" alt=""></div>
+
+                <div>
+                    <h1 class="text-3xl text-[#2E415C] font-bold">AP Pre School</h1>
+                    <h2 class="text-[#2E415C]">Fort Colony, Multan Cantt (PAKISTAN) <br>
+                        Email: apspre@mges.pk <br>
+                        Telephone: + 92 (61) 6515637 <br>
+
+                        <br>
+                    </h2>
+                </div>
+
+            </div>
+            <div id="left-left" class="bg-[#eaf9ff] lg:flex lg:flex-row lg:items-center p-5 gap-5  md:flex md:flex-col">
+                <div><img src="./Icon.svg" alt=""></div>
+
+                <div>
+                    <h1 class="text-3xl text-[#2E415C] font-bold">Garrison Academy</h 1>
+                        <h2 class="text-[#2E415C]">Near Chungi#1, Multan Cantt (PAKISTAN)<br>
+                            Email: gam@mges.pk <br>
+                            Telephone: + 92 (61) 4506156 <br>
+                        </h2>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <div id="middle-right" class="bg-[#FFFFFF]  lg:w-[850px] px-5 flex flex-col gap-24  mt-5 ">
+
+            <div>
+                <h1 class="text-3xl w-full h-[150px] flex items-center justify-center  text-[#555] font-bold">Welcome to
+                    Multan Garrison Education System, Multan</h1>
+            </div>
+
+
+            <div id="right-right" class="lg:flex lg:flex-row gap-4 flex flex-col  ">
+
+                <div class="lg:w-[215%] h-[150px] flex flex-col  items-center justify-around bg-[#EAF9FF] ">
+                    <div><img src="./lessons.png" alt=""></div>
+                    <div class="bg-[#2D343E] text-white w-full flex items-center justify-center">Intro</div>
+                </div>
+
+                <div>
+                    <h1 class="text-[#555] text-2xl font-bold">MGES INTRO</h1>
+                    <h2 class="text text-[#555] ">First Army Public School at Multan with the name of Kehkashan Army
+                        Public School was established in 1976 with the aim of providing quality education to the wards
+                        of Army personnel and civilians at primary level. The school was progressively up-graded to
+                        secondary level in 1992. Army Public Degree College was established in 1998 to run Intermediate
+                        and Degree classes for wards of military personnel as well as civilians. In June 2008 both KAPS
+                        and APDC were merged to restructure into three schools to cater for the ever expanding needs of
+                        education of Army wards and provide better management and control. On 4th Nov 2010 in Board of
+                        Governors meeting it was decided to establish Multan Garrison Education System (MGES). MGES
+                        replaced GWB / Governing body, Management Committee and Central Office. APS & C Khanewal and GAM
+                        were estb in Mar 2015. GAM is affiliated with CAIE. Administrative and Financial Control of
+                        APS&C Khanewal was transferred to COD Khanewal in May 2022.</h2>
+                </div>
+            </div>
+
+            <div id="right-right" class="lg:flex lg:flex-row gap-4 flex flex-col  ">
+                <div class="lg:w-[35%] h-[150px] flex flex-col items-center justify-around bg-[#EAF9FF] ">
+                    <div><img src="./mission.png" alt=""></div>
+                    <div class="bg-[#2D343E] text-white w-full flex items-center justify-center">Intro</div>
+                </div>
+
+                <div>
+                    <h1 class="text-[#555] text-2xl font-bold">OUR MISSION</h1>
+                    <h2 class="text text-[#555]">"Provide exemplary educational programs of international standards that
+                        inspire and prepare all students for success in global environment at affordable costs".</h2>
+                </div>
+            </div>
+
+            <div id="right-right" class="lg:flex lg:flex-row gap-4 flex flex-col  ">
+                <div class="lg:w-[20%] h-[150px] flex flex-col items-center justify-around bg-[#EAF9FF] ">
+                    <div><img src="./vision.png" alt=""></div>
+                    <div class="bg-[#2D343E] text-white w-full flex items-center justify-center">Intro</div>
+                </div>
+
+                <div>
+                    <h1 class="text-[#555] text-2xl font-bold">OUR VISION</h1>
+                    <h2 class="text text-[#555]">Investing in success for all students.</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+
+        <footer class="text-gray-600 body-font">
+            <div
+                class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+                <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                        <span class="ml-3 text-xl"><img src="./logo.png" alt=""></span>
+                    </a>
+                    <p class="mt-2 text-sm text-gray-500 flex justify-center">Copyright&nbsp;&copy; 2023</p>
+                    <div class="flex gap-2">
+                        <img src="./div.twitter.png" alt="">
+                        <img src="./div.png" alt="">
+                    </div>
+                </div>
+
+
+
+
+                <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center gap-[100px] ml-[50px] justify-center items-center">
+                    <div class="lg:w-1/2 md:w-1/2 w-full px-4 ">
+                        <h2 class="title-font  text-[#666] text-xl font-bold  tracking-widest  mb-3">CONTACT</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a class="text-gray-600 hover:text-gray-800 flex gap-3 items-center"><i class="fa-solid fa-house"></i> <span> School Road, Multan Cantt (PAKISTAN)</span></a>
+                            </li>
+                            <li>
+                                <a class="text-gray-600 hover:text-gray-800 flex gap-3 items-center"><i class="fa-solid fa-phone"></i><span>Telephone: + 92 (61) 6350650</span></a>
+                            </li>
+                            <li>
+                                <a class="text-gray-600 hover:text-gray-800 flex gap-3 items-center"><i class="fa-solid fa-fax"></i><span>Fax: +92 (61) 6350650</span></a>
+                            </li>
+                            <li>
+                                <a class="text-gray-600 hover:text-gray-800 flex gap-3 items-center"><i class="fa-solid fa-envelope"></i><span> Email: admin@mges.pk</span></a>
+                            </li>
+                        </nav>
+                    </div>
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <h2 class="title-font font-medium text-[#666] tracking-widest text-2xl  mb-3">Quick Links</h2>
+                        <nav class="list-none mb-10">
+                            <li>
+                                <a class=" text-[#08C] text-xl">Our Mission</a>
+                            </li>
+                            <li>
+                                <a class=" text-[#08C] text-xl">Our Vision</a>
+                            </li>
+                            <li>
+                                <a class=" text-[#08C] text-xl">Career</a>
+                            </li>
+                            <li>
+                                <a class=" text-[#08C] text-xl">Apply Online</a>
+                            </li>
+                            <li>
+                                <a class=" text-[#08C] text-xl">Contact us</a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </footer>
+
+
+
+    <script>
+     $(document).ready(function(){
+        $('#menu').click(function(){
+            $('#menu1').slideToggle()
+     
+        });
+    });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .input{
+    width: 364px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding-left: 10px;
+    gap: 10px;
+    background: #E6E6E6;
+}
+input{
+    background: none;
+}
+#logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+    </style>
+
+</head>
+<body class="w-full h-screen flex items-center justify-center" style="background: linear-gradient(241deg, #C850C0 0%, #4158D0 100%);" >
+
+    <div class="w-[75%] lg:h-[750px]  bg-white  flex  rounded-lg h-[600px] ">
+
+        <div class="w-[50%]  items-center justify-center hidden lg:flex">
+            <img src="./logo.png" alt="" class="w-[70%] -mt-2 " id="logo">
+        </div>
+
+
+        <div class="flex flex-col items-center justify-center w-[50%] gap-5  lg:pl-0 lg:ml-0 ml-[100px]">
+            <div><h1 class="text-2xl font-bold text-[#333]">Student Portal Login</h1></div>
+
+            <div class="flex flex-col gap-2">
+                <div><h2 class="text-[17px] text-[#212529] px-3">Student Date of Birth (e.g. 19-12-1985)</h2></div>
+                <div class="input">
+                    <div class="icon"><i class="fa-solid fa-house text-[#666666]"></i></div>
+                    <div class="input-feild"><input type="text" placeholder="Date of Brith" class="inputtt  text-[18px]" c></div>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col gap-2">
+                <div><h2 class="text-[17px] text-[#212529] px-3">Father CNIC (e.g. 36302-7386301-1)</h2></div>
+                <div class="input">
+                    <div class="icon"><i class="fa-solid fa-lock text-[#666666]" ></i></div>
+                    <div class="input-feild"><input type="text" placeholder="Father CNIC " class="inputtt  text-[18px]" c></div>
+                </div>
+            </div>
+
+
+            <div class="bg-[#57B846] w-[200px] h-[50px] flex items-center justify-center text-white text-[20px] rounded" >
+                <button>Login</button>
+            </div>
+
+            <div class="flex gap-1 text-[17px]">
+                <div class="text-[#999]">Forget</div>
+                <div class="text-[#666]">Username / Password?</div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    
+    
+</body>
+</html>
