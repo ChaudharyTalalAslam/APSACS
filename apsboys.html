@@ -36,7 +36,7 @@
 <body>
     <section>
 
-        <header class="body-font bg-[#2D343E] h-auto flex items-center">
+        <header class=" body-font bg-[#2D343E] h-auto flex items-center">
 
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 
@@ -85,38 +85,219 @@
         </header>
 
 
-        <div class="lg:h-[50px] lg:flex lg:items-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%,
+        <div class="md:h-[50px] md:flex lg:items-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%,
                                 rgba(0, 0, 0, 0.20) 100%), #09C; ">
 
-            <ul class=" gap-16 text-white text-[17px] pl-5   hidden lg:flex items-center" id="nav">
-                <li><a href="">About</a></li>
-                <li><a href="">Branches</a></li>
+            <ul class=" gap-16 text-white text-[17px] pl-10  hidden md:flex items-center" id="nav">
+                <li id="about1"><a href="#" class="flex items-center gap-1"><samp>About</samp></samp><i
+                            class="fa-solid fa-angle-down"></i></a></li>
+                <li id="branch1"><a href="#" class="flex items-center gap-1"><samp>Branches</samp><i
+                            class="fa-solid fa-angle-down"></i></a></li>
                 <li><a href="./login.html">Student Portal</a></li>
-                <li><a href="">Apply Online></a</li>
-                <li><a href="">Picture Gallery</a></li>
-                <li><a href="">Contact US</a></li>
+                <li><a href="#">Apply Online</a</li>
+                <li><a href="#">Picture Gallery</a></li>
+                <li  id="contact2"><a href="#" class="flex items-center gap-1"><samp>Contact US</samp><i
+                            class="fa-solid fa-angle-down"></i></a></li>
             </ul>
 
-            <div class=" flex h-[50px] items-center  justify-between px-5  lg:hidden hover:cursor-pointer " id="menu">
+
+
+
+            <div class=" flex h-[50px] items-center  justify-between px-5  md:hidden hover:cursor-pointer " id="menu">
                 <div class="text-xl text-yellow-400">Menu</div>
                 <div><i class="fa-solid fa-bars text-xl"></i></div>
             </div>
 
         </div>
-        
-        <div class="w-full h-[250px] hidden absolute lg:hidden  " id="menu1">
-            <ul class="flex flex-col h-full justify-between py-3 text-white text-xl font-normal px-5 " style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%,
+
+        <div class="w-full h-[250px]   hidden absolute  " id="menu1">
+            <ul class=" flex flex-col h-full justify-between py-3 text-white text-xl font-normal px-5 absolute " style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%,
                     rgba(0, 0, 0, 0.20) 100%), #09C;
         ">
-            <li><a href="">About</a></li>
-            <li><a href="">Branches</a></li>
-            <li><a href="./login.html">Student Portal</a></li>
-            <li><a href="">Apply Online</a></li>
-            <li><a href="">Picture Gallery</a></li>
-            <li><a href="">Contact US</a></li>
+                <li id="about2"><a href="#"><samp>About</samp><i class="fa-solid fa-angle-down"></i></a></li>
+                <li id="branch2"><a href="#"><samp>Branches</samp><i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="./login.html">Student Portal</a></li>
+                <li><a href="">Apply Online</a></li>
+                <li><a href="">Picture Gallery</a></li>
+                <li id="contact1"><a href="#"><samp>Contact US</samp><i class="fa-solid fa-angle-down"></i></a></li>
             </ul>
 
         </div>
+
+
+
+        <div class="absolute">
+            <ul class=" hidden   flex-col gap-1 md:ml-[170px]  absolute mt-20 md:mt-0  " id="branch">
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="./index.html">MGES
+                        Secretariat</a></li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="./apsboys.html">APS & C Boys</a>
+                </li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="./apsgirls.html">APS & C
+                        Girls</a></li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="">APS Junior</a></li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="">AP Pre School</a></li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="">Garrison Academy</a></li>
+            </ul>
+        </div>
+
+
+        <div class=" w-[90%]    bg-slate-800   h-auto py-3  pt-10 absolute hidden mt-10 md:mt-0    md:flex-row  "
+            id="about">
+
+            <div class="flex flex-col md:flex md:flex-row">
+
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 " id="about-left">
+                    <h2 class="title-font font-medium text-[#FFF] tracking-widest text-xl  mb-3">Quick Links</h2>
+                    <nav class="list-inside list-disc mb-10 text-sm">
+                        <li>
+                            <a class=" text-[#08C] ">Our Mission</a>
+                        </li>
+                        <li>
+                            <a class=" text-[#08C] ">Our Vision</a>
+                        </li>
+                        <li>
+                            <a class=" text-[#08C] ">Career</a>
+                        </li>
+                        <li>
+                            <a class=" text-[#08C] ">Apply Online</a>
+                        </li>
+                        <li>
+                            <a class=" text-[#08C] ">Contact us</a>
+                        </li>
+                    </nav>
+                </div>
+
+                <div id="about right" class="px-[20px]">
+                    <div>
+                        <h1 class="text-white font-bold">Lt Gen Akhtar Nawaz</h1>
+                        <h3 class="font-light text-[#a4acb8]">Chairman MGES</h3>
+                        <p class="text-white">The hall mark of our institutes is taleem o tarbiat. My emphasis is to
+                            equip on the youth with latest scientific/ social developments in the field of education and
+                            groom them physically and morally, so that they turn up to be the useful citizens of
+                            Pakistan.</p>
+                    </div>
+
+
+                    <div class="mt-10 flex flex-row gap-10">
+                        <div>
+                            <h1 class="text-white font-bold">Brig Rashid Minhas</h1>
+                            <h3 class="font-light text-[#a4acb8]">President MGES</h3>
+
+                        </div>
+                        <div>
+                            <h1 class="text-white font-bold">Brig Asim tanveer</h1>
+                            <h3 class="font-light text-[#a4acb8]">President MGES</h3>
+                            <h3 class="text-white font-light">Oct 2019 to Jan 2020</h3>
+                        </div>
+                        <div>
+                            <h1 class="text-white font-bold">Brig Rifat Ullah</h1>
+                            <h3 class="font-light text-[#a4acb8]">President MGES</h3>
+                            <h3 class="text-white font-light">Oct 2019 to Jan 2020</h3>
+                        </div>
+                        <div>
+                            <h1 class="text-white font-bold">Brig Asad Raza</h1>
+                            <h3 class="font-light text-[#a4acb8]">President MGES</h3>
+                            <h3 class="text-white font-light">Oct 2015 to Jan 2019</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="text-[15px] text-white mt-3">
+                        <p>MGES is striving hard to refine the academic, intellectual, moral and physical abilities of
+                            the students. For this purpose not only highly qualified and well experienced teachers have
+                            been engaged , rather all efforts are put in to provide a common forum for parents, teachers
+                            and students to work together to achieve excellence.</p>
+                    </div>
+
+                    <div
+                        class="bg-[#09C] w-[130px] h-[30px] flex items-center justify-center text-lg text-white font-sans rounded-md mt-4 cursor-pointer">
+                        Director
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+     <div  id="contact" class="hidden">
+
+             <div class=" absolute w-[90%] bg-slate-800   h-auto py-3  pt-10    md:mt-0 flex flex-col md:flex md:flex-row mt-60">
+
+                <div class=" px-4 " id="contact-left w-[40%]">
+                    
+                    <img src="./apsloc.PNG" alt="" class="w-[450px]   h-[350px] -mt-5">
+
+
+                  
+                </div>
+
+                <div id="contact right" class="px-[20px] text-white flex flex-col mt-5 md:-mt-5">
+
+                    <div>
+                        <div class=" w-full px-4 ">
+                            <h2 class="title-font  text-xl font-bold  tracking-widest  mb-3">Address</h2>
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <a class=" flex gap-3 items-center"><i
+                                            class="fa-solid fa-house"></i> <span class="text-white text-sm"> School Road, Multan Cantt
+                                            (PAKISTAN)</span></a>
+                                </li>
+                                <li>
+                                    <a class=" flex gap-3 items-center"><i
+                                            class="fa-solid fa-phone"></i><span class="text-white text-sm">Telephone: + 92 (61) 6350650</span></a>
+                                </li>
+                                <li>
+                                    <a class=" flex gap-3 items-center"><i
+                                            class="fa-solid fa-fax"></i><span class="text-white text-sm">Fax: +92 (61) 6350650</span></a>
+                                </li>
+                                <li>
+                                    <a class=" flex gap-3 items-center"><i
+                                            class="fa-solid fa-envelope"></i><span class="text-white text-sm"> Email: info@mges.pk</span></a>
+                                </li>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="flex flex-col lg:flex lg:flex-row gap-3">
+
+                        <div>
+                            <h1 class="text-xl font-bold">Question</h1>
+                            <p class="text-sm font-normal ">An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+                            <button class="w-[150px] bg-red-400 rounded mt-1">Read more</button>
+                        </div>
+
+                        <div>
+                            <h1 class="text-xl font-bold">Apply now</h1>
+                            <p class="text-sm font-normal ">An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+                            <button class="w-[150px] bg-red-400 rounded mt-1">Contact US</button>
+                        </div>
+
+                    </div>
+
+
+                    
+
+
+                </div>
+
+            </div> 
+        </div> 
+
+        
+        
+
+
+
+
+
+
+
+
 
 
     </section>
@@ -413,14 +594,75 @@
 
 
     <script>
-     $(document).ready(function(){
-        $('#menu').click(function(){
-            $('#menu1').slideToggle()
-     
+        $(document).ready(function () {
+            $('#menu').click(function () {
+                $('#menu1').slideToggle()
+
+            });
         });
-    });
+
+
+        $(document).ready(function () {
+            $('#branch2,#branch1').click(function () {
+                $('#branch').slideToggle()
+
+            });
+        });
+
+        $(document).ready(function () {
+            $('#contact2,#contact1').click(function () {
+                $('#contact').slideToggle()
+
+            });
+        });
+
+
+        $(document).ready(function () {
+            $('#about2,#about1').click(function () {
+                $('#about').slideToggle()
+
+            }
+            );
+        });
+
+
+
+        
+        $(document).ready(function () {
+            $('#about2,#about1').click(function () {
+                $('#branch,#contact').css({
+                    'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#branch2,#branch1').click(function () {
+                $('#about,#contact').css({
+                    'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#contact2,#contact1').click(function () {
+                $('#branch,#contact').css({
+                    'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#menu').click(function () {
+                $('#branch,#contact,#about').css({
+                    'display': 'none'
+                })
+            })
+        })
+
 
     </script>
+
 
 </body>
 
