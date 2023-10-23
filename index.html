@@ -364,12 +364,12 @@
         </div>
 
 
-        <marquee behavior="" direction="" class="mt-30 px-2"><b class="flex flex-row "> <span class="">IMPORTED
+        <marquee behavior="" direction="" class="mt-30 px-2"><b class="flex flex-row overflow-hidden "> <span class="overflow-hidden">IMPORTED
                     ANNOUNCEMENT:</span>
-                <div class="text-[#068306]"> FBISE ANNUAL EXAMINATION OF SSC WILL START FROM 27TH APRIL 2023.</div>
-                &nbsp;&nbsp;<span>IMPORTED ANNOUNCEMENT:</span>
-                <div class="text-[#068306]"> PRE BOARD EXAM 2023 OF HSSC WILL START FROM 26TH APRIL 2023.</div>
-                <span>IMPORTED ANNOUNCEMENT:</span>
+                <div class="text-[#068306] overflow-hidden"> FBISE ANNUAL EXAMINATION OF SSC WILL START FROM 27TH APRIL 2023.</div>
+                &nbsp;&nbsp;<span class="overflow-hidden">IMPORTED ANNOUNCEMENT:</span>
+                <div class="text-[#068306] overflow-hidden"> PRE BOARD EXAM 2023 OF HSSC WILL START FROM 26TH APRIL 2023.</div>
+                <span class="overflow-hidden">IMPORTED ANNOUNCEMENT:</span>
                 <div class="text-[#068306]"> I FINAL TERM PTM & RESULT FOR LEVEL I- IV - JUN 10TH, 2023.</div>
             </b>
         </marquee>
@@ -646,6 +646,22 @@
             $('#contact2,#contact1').click(function () {
                 $('#branch,#contact').css({
                     'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#contact1').dblclick(function () {
+                $('marquee').css({
+                    'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#contact1').click(function () {
+                $('marquee').css({
+                    'display': 'flex'
                 })
             })
         })

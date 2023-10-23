@@ -593,6 +593,7 @@
 
 
 
+   
     <script>
         $(document).ready(function () {
             $('#menu').click(function () {
@@ -653,6 +654,22 @@
         })
 
         $(document).ready(function () {
+            $('#contact1').dblclick(function () {
+                $('marquee').css({
+                    'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#contact1').click(function () {
+                $('marquee').css({
+                    'display': 'flex'
+                })
+            })
+        })
+
+        $(document).ready(function () {
             $('#menu').click(function () {
                 $('#branch,#contact,#about').css({
                     'display': 'none'
@@ -662,7 +679,6 @@
 
 
     </script>
-
 
 </body>
 
