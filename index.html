@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mges.pk</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="./jquery.js"></script>
+    <link rel="icon" href="./logo.png">
     <style>
         ul li:hover {
             cursor: pointer;
@@ -135,9 +136,9 @@
                 </li>
                 <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="./apsgirls.html">APS & C
                         Girls</a></li>
-                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="">APS Junior</a></li>
-                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="">AP Pre School</a></li>
-                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="">Garrison Academy</a></li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="./APS Junior.html">APS Junior</a></li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="./AP Pre School.html">AP Pre School</a></li>
+                <li class="bg-[#09C] w-[200px] pl-3 text-white rounded mt-1 "><a href="./Garrison Academy.html">Garrison Academy</a></li>
             </ul>
         </div>
 
@@ -364,12 +365,12 @@
         </div>
 
 
-        <marquee behavior="" direction="" class="mt-30 px-2"><b class="flex flex-row "> <span class="">IMPORTED
+        <marquee behavior="" direction="" class="mt-30 px-2"><b class="flex flex-row  "> <span class="overflow-hidden">IMPORTED
                     ANNOUNCEMENT:</span>
                 <div class="text-[#068306]"> FBISE ANNUAL EXAMINATION OF SSC WILL START FROM 27TH APRIL 2023.</div>
-                &nbsp;&nbsp;<span>IMPORTED ANNOUNCEMENT:</span>
+                &nbsp;&nbsp;<span class="">IMPORTED ANNOUNCEMENT:</span>
                 <div class="text-[#068306]"> PRE BOARD EXAM 2023 OF HSSC WILL START FROM 26TH APRIL 2023.</div>
-                <span>IMPORTED ANNOUNCEMENT:</span>
+                <span class="">IMPORTED ANNOUNCEMENT:</span>
                 <div class="text-[#068306]"> I FINAL TERM PTM & RESULT FOR LEVEL I- IV - JUN 10TH, 2023.</div>
             </b>
         </marquee>
@@ -418,7 +419,7 @@
                 <div><img src="./Icon.svg" alt=""></div>
 
                 <div>
-                    <h1 class="text-3xl text-[#2E415C] font-bold">APS Junior</h1>
+                    <h1 class="text-3xl text-[#2E415C] font-bold"><a href="./APS Junior.html">APS Junior</a> </h1>
                     <h2 class="text-[#2E415C]">Fort Colony, Multan Cantt (PAKISTAN) <br>
                         Email: apsjnr@mges.pk <br>
                         Telephone: + 92 (61) 6515761 <br>
@@ -430,7 +431,7 @@
                 <div><img src="./Icon.svg" alt=""></div>
 
                 <div>
-                    <h1 class="text-3xl text-[#2E415C] font-bold">AP Pre School</h1>
+                    <h1 class="text-3xl text-[#2E415C] font-bold"><a href="./AP Pre School.html">AP Pre School</a></h1>
                     <h2 class="text-[#2E415C]">Fort Colony, Multan Cantt (PAKISTAN) <br>
                         Email: apspre@mges.pk <br>
                         Telephone: + 92 (61) 6515637 <br>
@@ -444,7 +445,7 @@
                 <div><img src="./Icon.svg" alt=""></div>
 
                 <div>
-                    <h1 class="text-3xl text-[#2E415C] font-bold">Garrison Academy</h 1>
+                    <h1 class="text-3xl text-[#2E415C] font-bold"><a href="./Garrison Academy.html">Garrison Academy</a> </h1>
                         <h2 class="text-[#2E415C]">Near Chungi#1, Multan Cantt (PAKISTAN)<br>
                             Email: gam@mges.pk <br>
                             Telephone: + 92 (61) 4506156 <br>
@@ -646,6 +647,22 @@
             $('#contact2,#contact1').click(function () {
                 $('#branch,#contact').css({
                     'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#contact1').dblclick(function () {
+                $('marquee').css({
+                    'display': 'none'
+                })
+            })
+        })
+
+        $(document).ready(function () {
+            $('#contact1').click(function () {
+                $('marquee').css({
+                    'display': 'flex'
                 })
             })
         })
